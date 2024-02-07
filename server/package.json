@@ -1,7 +1,7 @@
 {
-  "name": "E-commerce",
+  "name": "Capstone-Server",
   "version": "1.0.0",
-  "description": "E-Commerce",
+  "description": "Express server for capstone",
   "main": "index.js",
   "scripts": {
     "start:app": "NODE_ENV=development nodemon server/index.js",
@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongodb": "^4.1.2",
