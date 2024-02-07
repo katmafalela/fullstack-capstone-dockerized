@@ -21,7 +21,9 @@ app.listen(port, () => {
 });
 
 app.get("/test", (req, res) => {
-  res.json("Server connection to client works!!");
+  res.json(
+    "Server connection to client works!!  Good Luck with your capstones :D"
+  );
 });
 
 module.exports = app;

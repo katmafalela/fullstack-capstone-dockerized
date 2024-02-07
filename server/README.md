@@ -19,5 +19,6 @@ In this project folder, you will find:
 
 1. Express server setup in `/index.js`
 2. The database connection is setup in `db/connection.js`
+3. CORS is enabled and there's a test endpoint `/test`
 
 Now the rest is for you to build on your own 😁
