@@ -265,13 +265,9 @@ Alternatively, you can use the GitHub Pull Requests and Issues extension that cr
 - Everyone should be in the daily standup call. If you are going to miss it, please send a message in advance in the project slack channel saying you won't be there and tag your team leader too.
 - Any issue between team members must be communicated to the team leader and to the person you have an issue with. If you're a bit worried about giving feedback to a peer, that's normal. We recommend that you check out this resource on how to give good direct feedback which shows that you care.
 - If you think you aren't going to finish a task on time, it's good practice to communicate this to the team leader as soon as possible. At the end of the day, communication is everything and there is no such thing as over-communication.
-  Further Readings
 
-Google Code Review (overview)
-Google Code Review (developer)
-Google Code Review (reviewer)
-Magic numbers
-Testing
+## Testing
+
 Why test?
 
 There are many reasons to have automated tests in your repository, which you have already learned about in the bootcamp. Some of the salient ones:
@@ -283,7 +279,8 @@ The Process
 
 Ideally, every code review should have a test. With the exception of boilerplate code, no code reviews for new features will be accepted without a corresponding test file. Practice test-driven development as you work on your assigned tasks.
 
-Bug Bash and Quality Standards
+## Bug Bash and Quality Standards
+
 What is a bug bash?
 
 In the later weeks of the projects, as you've fleshed out a working project, frequent bug bashes will be required. A bug bash is what it sounds like: everyone meets (together), sits down to "bash" the application and records a list of bugs and fixes.
@@ -292,7 +289,7 @@ In a bug bash, you should be inspecting your application with immense detail. Th
 
 It should be noted that at a normal company a bug bash would be performed with all groups of people (product managers, designers, engineers, managers, etc.); in this case, the responsibility will fall upon you to objectively evaluate your app. Your lead engineer may join for some bug bashes.
 
-When do we bug bash?
+## When do we bug bash?
 
 It should be done at a minimum once a week during the two weeks approaching demo day. However, you may feel free to do it earlier in the project timeline or more frequently each week.
 
