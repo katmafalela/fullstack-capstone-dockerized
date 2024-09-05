@@ -225,15 +225,6 @@ Alternatively, you can use the GitHub Pull Requests and Issues extension that cr
   - When something is due on Wednesday, it does not mean that you sent out a code review by Wednesday. It means that you wrote code of approval-quality that was merged into the repo on Wednesday.
   - Accepting feedback: Do not take code review personally. Learn from your mistakes and improve. Never repeat the same mistake more twice.
 
-## Testing
-
-### Why test?
-
-- There are many reasons to have automated tests in your repository, which you have already learned about in the bootcamp. Some of the salient ones:
-  - Code safety: In addition to simply knowing that the code works, developers feel safe changing other people's code and knowing what will happen; if something is changed badly, a test will break.
-  - Ease of review: When reviewing a merge request, the reviewer can understand exactly what was changed by looking at the tests.
-  - Self-documentation: Tests are a form of self-documentation on what the expected behavior of the code is.
-
 ### The Process
 
 - Ideally, every code review should have a test. With the exception of boilerplate code, no code reviews for new features will be accepted without a corresponding test file. Practice test-driven development as you work on your assigned tasks.
@@ -278,38 +269,6 @@ Self-documentation: Tests are a form of self-documentation on what the expected
 The Process
 
 Ideally, every code review should have a test. With the exception of boilerplate code, no code reviews for new features will be accepted without a corresponding test file. Practice test-driven development as you work on your assigned tasks.
-
-## Bug Bash and Quality Standards
-
-What is a bug bash?
-
-In the later weeks of the projects, as you've fleshed out a working project, frequent bug bashes will be required. A bug bash is what it sounds like: everyone meets (together), sits down to "bash" the application and records a list of bugs and fixes.
-
-In a bug bash, you should be inspecting your application with immense detail. The evaluation should be quite harsh and focus on all the nitty-gritty and edge cases.
-
-It should be noted that at a normal company a bug bash would be performed with all groups of people (product managers, designers, engineers, managers, etc.); in this case, the responsibility will fall upon you to objectively evaluate your app. Your lead engineer may join for some bug bashes.
-
-## When do we bug bash?
-
-It should be done at a minimum once a week during the two weeks approaching demo day. However, you may feel free to do it earlier in the project timeline or more frequently each week.
-
-## Sprint Planning and Meeting Dynamic
-
-- The team with the lead engineer will have sprint planning at the beginning of the week, and a retrospective at the end of it.
-- Github project management will be used for sprint planning.
-- The team with the lead engineer will have daily standups, 2 calls, and 3 on slack.
-- Each team is expected to meet outside of the regular meetings.
-- The standups should be short and straightforward, e.g. answers to the questions: what did you do yesterday, what are you working on today, and what blockers are you facing without talking about how to solve the blockers.
-- The whole meeting is 10 minutes so you are expected to be on time for the meeting, it reflects your professionalism and commitment.
-- Learn more about scrum standups meetings, scrum in software development, scrum meeting best practices, sprints, sprint planning, and sprint retrospective.
-
-## Logistics
-
-- Everyone should be in the daily standup call. If you are going to miss it, please send a message in advance in the project slack channel saying you won't be there and tag your team leader too.
-- Any issue between team members must be communicated to the team leader and to the person you have an issue with. If you're a bit worried about giving feedback to a peer, that's normal. We recommend that you check out this resource on how to give good direct feedback which shows that you care.
-- If you think you aren't going to finish a task on time, it's good practice to communicate this to the team leader as soon as possible. At the end of the day, communication is everything and there is no such thing as over-communication.
-- Everyone must answer the questions of the daily stand-up note that will be sent every day in the project slack channel or on your standup zoom call.
-- Always over-communicate, don't assume someone knows something because it's obvious to you. It's OK to re-communicate things all the time. If something is unclear, always ask for more clarification.
 
 ## Further Readings
 
