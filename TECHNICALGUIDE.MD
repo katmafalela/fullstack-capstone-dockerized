@@ -76,11 +76,25 @@ Try to follow the MVC project hierarchy for your backend structure. Your folder 
 ```
 ├── src
     ├── controllers
+        ├── users.js
+        ├── posts.js
+        ├── __tests__
+            ├── users.test.js
     ├── models
+        ├── users.js
+        ├── posts.js
     ├── routes
+        ├── users.js
+        ├── posts.js
+        ├── index.js
     ├── services
+        ├── cronJobs.js
+        ├── jobProcessor.js
     ├── utils
+        ├── email.js
     ├── views
+        ├── home.ejs
+        ├── styles.css
 ```
 
 ### Frontend Structure
@@ -90,8 +104,15 @@ Follow the component pages pattern for your frontend structure. Use `TitleCase` 
 ```
 ├── src
     ├── components
-    ├── pages
-    ├── styles
+        ├── ProgressBar
+            ├── ProgressBar.js
+            ├── ProgressBar.scss
+    ├── Pages
+        ├── About
+            ├── ContactForm.js
+            ├── About.js
+    ├── style
+        ├── _variables.scss
 ```
 
 ---
@@ -155,8 +176,52 @@ Standups will occur daily, with a focus on:
 
 ---
 
-## Further Reading
+## Further Readings
 
 - [Google Code Review Overview](https://google.github.io/eng-practices/review/)
 - [Google Code Review Developer Guide](https://google.github.io/eng-practices/review/developer/)
 - [Google Code Review Reviewer Guide](https://google.github.io/eng-practices/review/reviewer/)
+
+---
+
+## Bug Bash and Quality Standards
+
+### What is a bug bash?
+
+In the later weeks of the projects, as you've fleshed out a working project, frequent bug bashes will be required. A bug bash is what it sounds like: everyone meets (together), sits down to "bash" the application and records a list of bugs and fixes.
+
+In a bug bash, you should be inspecting your application with immense detail. The evaluation should be quite harsh and focus on all the nitty-gritty and edge cases.
+
+It should be noted that at a normal company a bug bash would be performed with all groups of people (product managers, designers, engineers, managers, etc.); in this case, the responsibility will fall upon you to objectively evaluate your app. Your lead engineer may join for some bug bashes.
+
+### When do we bug bash?
+
+It should be done at a minimum once a week during the two weeks approaching demo day. However, you may feel free to do it earlier in the project timeline or more frequently each week.
+
+---
+
+## Sprint Planning and Meeting Dynamic
+
+The team with the lead engineer will have sprint planning at the beginning of the week, and a retrospective at the end of it. Use GitHub project management for sprint planning.
+
+### Daily Standups
+
+The team with the lead engineer will have daily standups, 2 calls, and 3 on slack. Each team is expected to meet outside of the regular meetings. The standups should be short and straightforward, answering these questions:
+
+- What did you do yesterday?
+- What are you working on today?
+- What blockers are you facing?
+
+The whole meeting is 10 minutes long, so you are expected to be on time.
+
+### Logistics
+
+Everyone should be in the daily standup call. If you are going to miss it, please send a message in advance in the project slack channel saying you won't be there and tag your team leader.
+
+Any issue between team members must be communicated to the team leader and the person you have an issue with. We recommend checking out this resource on how to give good direct feedback.
+
+If you think you aren't going to finish a task on time, it's good practice to communicate this to the team leader as soon as possible. At the end of the day, communication is everything and there is no such thing as over-communication.
+
+Everyone must answer the daily stand-up note questions sent in the project slack channel or on your standup zoom call.
+
+Always over-communicate, and ask for more clarification if something is unclear.
