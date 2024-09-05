@@ -157,6 +157,6 @@ Standups will occur daily, with a focus on:
 
 ## Further Reading
 
-- [Google Code Review Overview](https://google.com)
-- [Google Code Review Developer Guide](https://google.com)
-- [Google Code Review Reviewer Guide](https://google.com)
+- [Google Code Review Overview](https://google.github.io/eng-practices/review/)
+- [Google Code Review Developer Guide](https://google.github.io/eng-practices/review/developer/)
+- [Google Code Review Reviewer Guide](https://google.github.io/eng-practices/review/reviewer/)
