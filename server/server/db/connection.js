@@ -1,26 +1,17 @@
+// REQUIRED PACKAGE
 const mongoose = require("mongoose");
 
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME, TEST_DB_HOST } =
-  process.env;
+// CONNECTING TO MONGODB
+async function connectToMongoDB() {
+  const connection =
+    "mongodb+srv://katlehomafalela:BOPHelo0727*@cluster0.0kzu4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  try {
+    await mongoose.connect(connection);
+    console.log("Successfully Connected to MongoDB");
+  } catch (error) {
+    console.error("Error connecting to MongoDB:", error);
+  }
+}
 
-const DB_URI = `mongodb://${DB_USER}:${DB_PASSWORD}@${
-  process.env.NODE_ENV === "test" ? TEST_DB_HOST : DB_HOST
-}:${DB_PORT}/${DB_NAME}?authSource=admin`;
-
-const url = DB_URI;
-
-const connectToMongo = () => {
-  mongoose.connect(url, { useNewUrlParser: true });
-
-  db = mongoose.connection;
-
-  db.once("open", () => {
-    console.log("Database connected: ", url);
-  });
-
-  db.on("error", (err) => {
-    console.error("Database connection error: ", err);
-  });
-};
-
-module.exports = connectToMongo;
+// EXPORTING THE CONNECTION FUNCTION
+module.exports = { connectToMongoDB };
